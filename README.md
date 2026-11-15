@@ -1,4 +1,4 @@
-# A dream come true, a legacy lives on.
+# Forensic Dot Connector
 
 <p align="center">
   <img src="UGREEN%20DOCS%20-%20IDEAS/demo-media/icon.png" alt="Forensic Dot Connector Logo" width="160" />
@@ -223,4 +223,4 @@ ugcli pack --arch all --build 1 --product-series all
 * **Entrant / Lead Architect**: Francisco Pellerano (`@ciscojrai`)
 * **Hackathon**: [UGREEN Hackathon 2026 on AI NAS](https://ugreenhackathon.devpost.com/)
 * **Category Track**: Bring Memories to Life
-* **Project Pitch**: *A dream come true, a legacy lives on.*
+* **Project Pitch**: *Recover, Mine, Archive, Answer.*

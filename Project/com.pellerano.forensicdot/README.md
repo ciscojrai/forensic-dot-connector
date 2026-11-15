@@ -3,7 +3,7 @@
 **UGREEN Hackathon 2026 on AI NAS Entry**  
 *Track: Bring Memories to Life*  
 *Entrant: Francisco Pellerano*  
-*Project: "A dream come true, a legacy lives on."*  
+*Project: "Forensic Dot Connector"*  
 *Executive Formula: Forensic Dot Connector = Recover, Mine, Archive, Answer.*
 
 ---

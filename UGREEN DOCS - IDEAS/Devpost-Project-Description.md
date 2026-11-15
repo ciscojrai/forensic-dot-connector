@@ -1,5 +1,5 @@
-# A dream come true, a legacy lives on.
-### **Forensic Dot Connector: End-to-End Recovery, Forensic Mining, and Chronological Dating System**
+# Forensic Dot Connector
+### **End-to-End Recovery, Forensic Mining, and Chronological Dating System**
 
 > **Track:** Bring Memories to Life  
 > **Target Hardware:** UGREEN AI NAS (UGOS / UGOS Pro • nasync & homeagent)  
