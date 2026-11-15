@@ -1,0 +1,78 @@
+# ==============================================================================
+# UGREEN NAS Application Specification - Forensic Dot Connector
+# Official Schema Version: 2.1 (UGOS / UGOS Pro)
+# Reference: https://developer.ugnas.com/en/doc/tools/project-yaml.html
+# ==============================================================================
+
+spec_version: 2.1
+app_id: com.pellerano.forensicdot
+version: 1.0.0
+
+# Supported Hardware Architectures
+support_arch:
+  - amd64
+  - arm64
+
+# Supported UGREEN Product Series
+# nasync: UGREEN NASync Network Attached Storage (e.g., DXP6800 Pro, iDX6011 Pro)
+# homeagent: UGREEN HomeAgent Smart Hub Devices
+product_series:
+  - nasync
+  - homeagent
+
+# Supported Client Surfaces
+supports:
+  - pc
+  - app
+
+# Backend Service Startup Configuration
+start_cmd: bin/forensicdot_serv --port=28080 --host=127.0.0.1
+port: 28080
+proxy_path: api
+
+# Desktop Integration Type
+# inner: Launches in an integrated high-performance desktop window inside UGOS
+open_type: inner
+
+# Application Categories
+tag_type:
+  - utility
+  - photo
+
+# Window Dimensions & Capabilities
+window:
+  width: 1280
+  height: 800
+  min_width: 960
+  min_height: 600
+  resizable: true
+  maximizable: true
+
+# Documentation & Legal
+privacy_policy_link:
+  - https://pellerano.dev/forensicdot/privacy
+license_agreement_link:
+  - https://pellerano.dev/forensicdot/license
+source_code_link:
+  - https://github.com/franciscopellerano/forensic-dot-connector
+technical_support_link:
+  - https://pellerano.dev/forensicdot/support
+
+# Multi-Language Display Configuration (i18n)
+i18n:
+  en-US:
+    name: Forensic Dot Connector
+    description: End-to-end recovery, forensic mining, and archive preservation system for multi-generational family libraries on UGREEN AI NAS.
+    author: Francisco Pellerano
+    publisher: Francisco Pellerano
+    publisher_link: https://pellerano.dev
+    official: https://pellerano.dev/forensicdot
+    help: https://pellerano.dev/forensicdot/docs
+  zh-CN:
+    name: 记忆取证时间线连接器 (Forensic Dot Connector)
+    description: 基于绿联 AI NAS 的端到端照片修复、法医级深度挖掘与跨代家庭档案永久留存系统。
+    author: Francisco Pellerano
+    publisher: Francisco Pellerano
+    publisher_link: https://pellerano.dev
+    official: https://pellerano.dev/forensicdot
+    help: https://pellerano.dev/forensicdot/docs

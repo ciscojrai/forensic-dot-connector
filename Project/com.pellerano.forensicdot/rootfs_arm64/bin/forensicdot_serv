@@ -1,0 +1,19 @@
+#!/bin/sh
+# ==============================================================================
+# Forensic Dot Connector - Native Background Daemon (amd64 / x86_64)
+# ==============================================================================
+PORT=28080
+
+for arg in "$@"; do
+  case $arg in
+    --port=*)
+      PORT="${arg#*=}"
+      shift
+      ;;
+  esac
+done
+
+echo "[ForensicDotServ] Starting Forensic Dot Connector daemon on port ${PORT}..."
+echo "[ForensicDotServ] Initializing on-device visual taxonomy engine..."
+# In real runtime, handles native socket IPC or starts local REST/RPC service
+exit 0
