@@ -124,7 +124,13 @@ Every operation maps to documented UGOS agent capabilities verified against the 
 
 ---
 
-## Retinal Gallery (6-Tab Native Interface)
+## Retinal Gallery (7-Tab Native Interface with 3D Command Center)
+
+<p align="center">
+  <img src="UGREEN%20DOCS%20-%20IDEAS/demo-media/07_3d_heritage_globe.png" alt="Command Center: 3D Sovereign Heritage Globe" width="100%" />
+  <br>
+  <em>Figure 7: Command Center: 3D Sovereign Heritage Globe powered by the ProofGate 3D Engine — featuring OrbitControls, Great Circle migration trajectory arcs, and Day/Night solar terminator illumination.</em>
+</p>
 
 | 01. Recovery & Triage | 02. Forensic Mining Matrix |
 | :---: | :---: |

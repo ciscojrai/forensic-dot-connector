@@ -1,5 +1,6 @@
 import { useState } from 'react';
-import { Camera, ShieldCheck, CheckCircle2, XCircle, Layers, Image as ImageIcon, FolderInput, ArrowRight, RefreshCw, MessageSquare, Cat, Bike, UserCheck, Sparkles, Wrench } from 'lucide-react';
+import { Camera, ShieldCheck, CheckCircle2, XCircle, Layers, Image as ImageIcon, FolderInput, ArrowRight, RefreshCw, MessageSquare, Cat, Bike, UserCheck, Sparkles, Wrench, Globe } from 'lucide-react';
+import HeritageGlobe from './components/HeritageGlobe';
 
 interface ClueItem {
   category: string;
@@ -20,7 +21,7 @@ const heirloomClues: ClueItem[] = [
 ];
 
 export default function App() {
-  const [activeTab, setActiveTab] = useState<'recovery' | 'matrix' | 'oracle' | 'taxonomy' | 'cache' | 'telemetry'>('matrix');
+  const [activeTab, setActiveTab] = useState<'recovery' | 'matrix' | 'oracle' | 'globe' | 'taxonomy' | 'cache' | 'telemetry'>('globe');
   const selectedPhoto = '/volume1/photos/grandparents_archive_box1/heirloom_scan_014.tif';
 
   return (
@@ -122,6 +123,24 @@ export default function App() {
           }}
         >
           <Sparkles size={14} /> Family Heritage Oracle
+        </button>
+        <button
+          onClick={() => setActiveTab('globe')}
+          style={{
+            background: activeTab === 'globe' ? '#0284C7' : 'transparent',
+            color: activeTab === 'globe' ? '#FFFFFF' : '#9CA3AF',
+            border: 'none',
+            padding: '8px 14px',
+            borderRadius: '6px',
+            cursor: 'pointer',
+            fontSize: '13px',
+            fontWeight: 600,
+            display: 'flex',
+            alignItems: 'center',
+            gap: '6px'
+          }}
+        >
+          <Globe size={14} /> 3D Heritage Globe
         </button>
         <button
           onClick={() => setActiveTab('taxonomy')}
@@ -362,6 +381,11 @@ export default function App() {
             </div>
           </div>
         </section>
+      )}
+
+      {/* Tab: 3D Heritage Globe */}
+      {activeTab === 'globe' && (
+        <HeritageGlobe />
       )}
 
       {/* Tab: Visual Clues Taxonomy */}
