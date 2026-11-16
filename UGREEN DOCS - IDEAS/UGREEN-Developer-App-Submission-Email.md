@@ -1,7 +1,7 @@
 # UGREEN NAS Developer Platform: App Listing Application
 
 **Recipient:** `developers_bd@ugreen.com`  
-**Subject:** `[UGREEN NAS Developer Application] Forensic Dot Connector_Francisco Pellerano`
+**Subject:** `UGREEN NAS Developer Application Forensic Dot Connector_Francisco Pellerano`
 
 ---
 
@@ -16,15 +16,15 @@ Below are the package specifications and developer details as per the UGREEN NAS
 ---
 
 #### 1. Application Details
-* **[App Name]:** Forensic Dot Connector
-* **[Package Name]:** `com.pellerano.forensicdot`
-* **[Developer Type]:** Individual / Enterprise
-* **[Entity Name]:** Francisco Pellerano (AddyLife)
-* **[Target Product Series]:** `nasync` (NASync Series) & `homeagent` (HomeAgent Series)
-* **[Specification Version]:** UGOS Package Spec Version 2.1
-* **[Architecture Support]:** `amd64` (x86_64) & `arm64` (aarch64)
-* **[Default Port]:** 28080
-* **[Open Type]:** `inner` (Native desktop window: 1280x800)
+* **App Name:** Forensic Dot Connector
+* **Package Name:** `com.pellerano.forensicdot`
+* **Developer Type:** Enterprise
+* **Entity Name:** All Forward LLC
+* **Target Product Series:** `nasync` (NASync Series) & `homeagent` (HomeAgent Series)
+* **Specification Version:** UGOS Package Spec Version 2.1
+* **Architecture Support:** `amd64` (x86_64) & `arm64` (aarch64)
+* **Default Port:** 28080
+* **Open Type:** `inner` (Native desktop window: 1280x800)
 
 ---
 
@@ -50,11 +50,12 @@ Below are the package specifications and developer details as per the UGREEN NAS
 ---
 
 #### 4. Developer Contacts
-* **[Contact Person]:** Francisco Pellerano
-* **[Email Address]:** franciscopellerano@gmail.com
-* **[GitHub]:** https://github.com/ciscojrai
-* **[Entity / Business]:** AddyLife
-* **[Phone / Social]:** [Add phone number or preferred contact channel here]
+* **Contact Person:** Francisco Pellerano
+* **Email Address:** franciscojpelleranojr@gmail.com
+* **Business Email:** info@allforwardllc.com
+* **GitHub:** https://github.com/ciscojrai
+* **Entity / Business:** All Forward LLC
+* **Phone:** +1-504-571-9320
 
 ---
 
